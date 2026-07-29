@@ -5,7 +5,7 @@ description = "Исполняемая образовательная платф�
 requires-python = ">=3.12,<3.13"
 dependencies = [
   "mkdocs-material==9.6.17",
-  "pyyaml==6.0.2",
+  "pyyaml==6.0.3",
   "pytest==8.4.1",
   "ruff==0.12.7",
 ]
