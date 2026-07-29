@@ -1,0 +1,22 @@
+schema_version: 1
+kim: M3-GAME
+learning_outcome_refs: [LO-03]
+title: Групповая Git-игра
+max_score: 4
+criteria:
+  - id: game_result
+    title: Команда получила рабочий интегрированный результат
+    score: 1
+    evidence: итоговая ветка
+  - id: game_collaboration
+    title: Участники соблюдали роли и протокол коммуникации
+    score: 1
+    evidence: журнал наблюдения преподавателя
+  - id: game_conflicts
+    title: Конфликты разрешены с объяснением решения
+    score: 1
+    evidence: история и ретроспектива
+  - id: game_retro
+    title: Проведена содержательная ретроспектива
+    score: 1
+    evidence: командная заметка

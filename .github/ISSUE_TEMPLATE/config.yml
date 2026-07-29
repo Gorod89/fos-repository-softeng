@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Сообщить об уязвимости
+    url: https://github.com/Gorod89/fos-repository-softeng/security
+    about: Не публикуйте уязвимости и секреты в обычном issue.

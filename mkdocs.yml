@@ -1,0 +1,61 @@
+site_name: «Программные решения для систем ИИ»
+site_description: Исполняемый фонд оценочных средств и материалы курса
+site_url: https://gorod89.github.io/fos-repository-softeng/
+repo_url: https://github.com/Gorod89/fos-repository-softeng
+repo_name: Gorod89/fos-repository-softeng
+edit_uri: edit/main/docs/
+docs_dir: docs
+site_dir: site
+strict: true
+exclude_docs: |
+  README.md
+
+theme:
+  name: material
+  language: ru
+  features:
+    - navigation.instant
+    - navigation.sections
+    - navigation.top
+    - search.highlight
+    - content.code.copy
+
+plugins:
+  - search:
+      lang:
+        - ru
+        - en
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.superfences
+  - tables
+  - toc:
+      permalink: true
+
+nav:
+  - Главная: index.md
+  - Студенту:
+      - Быстрый старт: student-guide/getting-started.md
+      - Задания и траектория: student-guide/assignments.md
+      - Оценивание: student-guide/assessment.md
+      - Использование ИИ: student-guide/ai-usage.md
+  - Преподавателю:
+      - Запуск курса: instructor-guide/getting-started.md
+      - GitHub Classroom: instructor-guide/classroom.md
+      - Проверка и защита: instructor-guide/grading.md
+      - Аналитика качества: instructor-guide/analytics.md
+      - Семестровый релиз: instructor-guide/releases.md
+  - Спецификация:
+      - Рабочая программа: rpd.md
+      - Модель качества: quality-model.md
+      - Чек-лист: quality-checklist.md
+  - Решения:
+      - ADR-0001 — единый источник данных: adr/0001-course-spec.md
+      - ADR-0002 — модель оценивания: adr/0002-assessment-model.md
+      - ADR-0003 — публичные и скрытые тесты: adr/0003-tests-boundary.md

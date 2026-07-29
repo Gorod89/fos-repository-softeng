@@ -1,0 +1,23 @@
+schema_version: 1
+kim: M6-LAB
+learning_outcome_refs: [LO-05]
+title: Анализ и визуализация данных
+max_score: 6
+autograded_score: 3
+criteria:
+  - id: m6_data_quality
+    title: Проверки качества данных
+    score: 1
+    evidence: assignments/M6-pandas-eda-starter/tests/public/test_analysis.py
+  - id: m6_pipeline
+    title: Воспроизводимый пайплайн
+    score: 2
+    evidence: код и тесты
+  - id: m6_conclusions
+    title: Обоснованные выводы и визуализации
+    score: 1
+    evidence: отчет
+  - id: m6_defense
+    title: Новый срез данных на защите
+    score: 2
+    evidence: устная защита

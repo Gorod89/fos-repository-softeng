@@ -1,0 +1,36 @@
+name: Улучшение курса
+description: Предложить проверяемое улучшение задания, рубрики или документации
+title: "[Курс]: "
+labels: ["course-quality"]
+body:
+  - type: dropdown
+    id: audience
+    attributes:
+      label: Для кого
+      options:
+        - Студент
+        - Преподаватель
+        - Оба
+    validations:
+      required: true
+  - type: input
+    id: artifact
+    attributes:
+      label: Затронутый модуль или файл
+      placeholder: M5, course-spec/rubrics/M5-lab.yml
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Наблюдаемая проблема
+      description: Что происходит сейчас и как это можно воспроизвести?
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Критерий готовности
+      description: Как однозначно проверить улучшение?
+    validations:
+      required: true

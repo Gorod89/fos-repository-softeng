@@ -1,0 +1,23 @@
+schema_version: 1
+kim: M1-LAB
+learning_outcome_refs: [LO-01]
+title: Архитектура ИИ-приложения
+max_score: 6
+autograded_score: 2
+criteria:
+  - id: m1_context
+    title: Контекст и измеримые требования
+    score: 1
+    evidence: assignments/M1-architecture-starter/docs/requirements.md
+  - id: m1_components
+    title: Компоненты и интерфейсы
+    score: 1
+    evidence: assignments/M1-architecture-starter/architecture.yml
+  - id: m1_validation
+    title: Машинная проверка архитектурного описания
+    score: 2
+    evidence: assignments/M1-architecture-starter/tests/public/test_architecture.py
+  - id: m1_tradeoffs
+    title: Обоснование компромиссов на защите
+    score: 2
+    evidence: устная защита с изменением нефункционального требования

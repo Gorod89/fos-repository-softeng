@@ -1,0 +1,8 @@
+[project]
+name = "m1-architecture-starter"
+version = "0.1.0"
+requires-python = ">=3.12,<3.13"
+dependencies = ["pyyaml==6.0.2", "pytest==8.4.1"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests/public"]

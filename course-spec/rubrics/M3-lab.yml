@@ -1,0 +1,23 @@
+schema_version: 1
+kim: M3-LAB
+learning_outcome_refs: [LO-03]
+title: Продвинутый Git
+max_score: 6
+autograded_score: 3
+criteria:
+  - id: m3_history
+    title: Восстановлена требуемая история
+    score: 2
+    evidence: assignments/M3-advanced-git-starter/check_repository.py
+  - id: m3_recovery
+    title: Найдена и исправлена регрессия
+    score: 1
+    evidence: git bisect и исправляющий коммит
+  - id: m3_process
+    title: Осмысленные коммиты и pull request
+    score: 1
+    evidence: история репозитория задания
+  - id: m3_defense
+    title: Разрешение нового конфликта на защите
+    score: 2
+    evidence: устная защита

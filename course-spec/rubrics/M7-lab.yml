@@ -1,0 +1,23 @@
+schema_version: 1
+kim: M7-LAB
+learning_outcome_refs: [LO-06]
+title: REST API на FastAPI
+max_score: 6
+autograded_score: 3
+criteria:
+  - id: m7_contract
+    title: Контракт и валидация API
+    score: 1
+    evidence: OpenAPI и модели Pydantic
+  - id: m7_tests
+    title: Корректность эндпоинтов
+    score: 2
+    evidence: assignments/M7-fastapi-starter/tests/public/test_api.py
+  - id: m7_reliability
+    title: Ошибки, health endpoint и логирование
+    score: 1
+    evidence: код и отчет
+  - id: m7_defense
+    title: Новый endpoint на защите
+    score: 2
+    evidence: устная защита

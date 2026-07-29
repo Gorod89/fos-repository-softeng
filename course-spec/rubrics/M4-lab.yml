@@ -1,0 +1,23 @@
+schema_version: 1
+kim: M4-LAB
+learning_outcome_refs: [LO-04]
+title: Инженерное качество Python-проекта
+max_score: 6
+autograded_score: 3
+criteria:
+  - id: m4_tests
+    title: Автоматические тесты
+    score: 2
+    evidence: assignments/M4-python-tooling-starter/tests/public
+  - id: m4_types
+    title: Типизация и конфигурация
+    score: 1
+    evidence: результаты статической проверки
+  - id: m4_observability
+    title: Структурированное логирование и обработка ошибок
+    score: 1
+    evidence: код и отчет
+  - id: m4_defense
+    title: Изменение требования на защите
+    score: 2
+    evidence: устная защита

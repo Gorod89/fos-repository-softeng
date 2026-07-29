@@ -1,0 +1,14 @@
+schema_version: 1
+kim: ORAL-REPORT
+learning_outcome_refs: [LO-01, LO-02, LO-03, LO-04, LO-05, LO-06]
+title: Устное техническое сообщение
+max_score: 2
+criteria:
+  - id: oral_accuracy
+    title: Техническая точность и источники
+    score: 1
+    evidence: слайды и список источников
+  - id: oral_explanation
+    title: Объяснение и ответы на вопросы
+    score: 1
+    evidence: выступление

@@ -1,0 +1,32 @@
+name: Ошибка
+description: Сообщить о воспроизводимой ошибке в материалах или starter-проекте
+title: "[Ошибка]: "
+labels: ["bug"]
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Версия курса
+      placeholder: 2026-fall-v1.0
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Окружение
+      placeholder: macOS 15, Python 3.12, uv 0.8.4
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Воспроизведение
+      description: Команда, минимальные данные и полный текст ошибки без секретов.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Ожидаемое поведение
+    validations:
+      required: true

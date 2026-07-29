@@ -1,0 +1,23 @@
+[project]
+name = "fos-repository-softeng"
+version = "1.0.0"
+description = "Исполняемая образовательная платформа дисциплины по программной инженерии для систем ИИ"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+  "mkdocs-material==9.6.17",
+  "pyyaml==6.0.2",
+  "pytest==8.4.1",
+  "ruff==0.12.7",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests/repository-quality"]
+addopts = "-ra"
+pythonpath = ["."]
+
+[tool.ruff]
+target-version = "py312"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP"]

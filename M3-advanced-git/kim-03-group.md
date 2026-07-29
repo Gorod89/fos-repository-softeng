@@ -31,6 +31,6 @@
 Советы и подробности по использованию ресурсов изложены в [методических указаниях по использованию ресурсов ресурсам модуля 3](../methodical-guidelines/teachers-resources/M3-resources-guidelines.md).
 
 1. [S. Chacon, B. Straub Pro Git book](../resources/textbooks/README.md)
-2. [Основы работы в распределенных системах контроля версий: метод. указания](<../resources/textbooks/M3-t1 VCS basic.pdf>)
+2. [Основы работы в распределенных системах контроля версий: метод. указания](<../resources/textbooks/M3-t1 VCS basics.pdf>)
 3. [Управление ветвлением в распределенных системах контроля версий: метод. указания](<../resources/textbooks/M3-t2 VCS branching.pdf>)
 4. [Перебазирование и редактирование истории кода в распределенных системах контроля версий: метод. указания](<../resources/textbooks/M3-t4 VCS rebase.pdf>)

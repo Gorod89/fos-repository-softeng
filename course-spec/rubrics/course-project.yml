@@ -1,0 +1,36 @@
+schema_version: 1
+kim: COURSE-PROJECT
+learning_outcome_refs: [LO-01, LO-02, LO-03, LO-04, LO-05, LO-06]
+title: Сквозная курсовая работа
+max_score: 40
+raw_max_score: 100
+conversion_factor: 0.4
+criteria:
+  - id: project_problem
+    title: Постановка задачи, требования и архитектура
+    score: 15
+    evidence: README и ADR
+  - id: project_data
+    title: Данные, ETL и хранилище
+    score: 18
+    evidence: код, миграции и тесты
+  - id: project_model
+    title: Модель и воспроизводимая оценка качества
+    score: 17
+    evidence: эксперимент и метрики
+  - id: project_api
+    title: API и инженерное качество
+    score: 15
+    evidence: контракт, типизация и тесты
+  - id: project_delivery
+    title: Контейнеризация, CI/CD и документация
+    score: 15
+    evidence: Docker Compose и workflow
+  - id: project_process
+    title: Инженерный процесс и история решений
+    score: 10
+    evidence: issues, pull request, ADR и коммиты
+  - id: project_defense
+    title: Защита с изменением условий
+    score: 10
+    evidence: демонстрация и ответы

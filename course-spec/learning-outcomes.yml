@@ -1,0 +1,26 @@
+schema_version: 1
+learning_outcomes:
+  - id: LO-01
+    statement: Проектировать архитектуру ИИ-приложения и обосновывать инженерные компромиссы.
+    competencies: [PL-1.2]
+    evidence: [M1-LAB, COURSE-PROJECT]
+  - id: LO-02
+    statement: Создавать и оптимизировать воспроизводимые ETL-пайплайны для PostgreSQL.
+    competencies: [PL-1.1, PL-1.3, BD-3.1]
+    evidence: [M2-LAB, COURSE-PROJECT]
+  - id: LO-03
+    statement: Применять продвинутые операции Git и командный процесс через pull request.
+    competencies: [LC-5.1]
+    evidence: [M3-LAB, M3-GAME, COURSE-PROJECT]
+  - id: LO-04
+    statement: Разрабатывать тестируемый и типизированный Python-код с управляемыми зависимостями.
+    competencies: [PL-1.1, LC-5.1]
+    evidence: [M4-LAB, COURSE-PROJECT]
+  - id: LO-05
+    statement: Выполнять воспроизводимый анализ данных и реализовывать векторизованные алгоритмы.
+    competencies: [PL-1.1, PL-1.2, PL-1.3, BD-1.2, BD-2.1, ML-3.1]
+    evidence: [M5-LAB, M6-LAB, COURSE-PROJECT]
+  - id: LO-06
+    statement: Создавать, контейнеризировать и проверять REST API с базовым CI/CD.
+    competencies: [PL-1.1, LC-5.1, LC-5.2]
+    evidence: [M7-LAB, M8-LAB, COURSE-PROJECT]

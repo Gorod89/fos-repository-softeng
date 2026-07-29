@@ -9,6 +9,24 @@ __pycache__/
 *.py[cod]
 .venv/
 venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+site/
+
+# Секреты и локальная конфигурация
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Сгенерированные сценарии заданий
+assignments/M3-advanced-git-starter/workspace/
 
 # Временные файлы офисных приложений
 ~$*.docx

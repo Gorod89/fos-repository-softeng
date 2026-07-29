@@ -1,0 +1,20 @@
+schema_version: 1
+course:
+  id: softeng-ai-solutions
+  title: Разработка прикладных программных решений для систем искусственного интеллекта
+  language: ru
+  credits: 4
+  hours: 144
+  attestation: зачет
+  academic_level: бакалавриат
+  recommended_semester: 3
+  release: 2026-fall-v1.0
+terminology:
+  GitHub: GitHub
+  ci_cd: CI/CD
+  fastapi: FastAPI
+  docker_compose: Docker Compose
+competency_levels:
+  - Б
+  - С
+  - П

@@ -1,0 +1,9 @@
+[project]
+name = "m2-databases-starter"
+version = "0.1.0"
+requires-python = ">=3.12,<3.13"
+dependencies = ["psycopg[binary]==3.2.9", "pytest==8.4.1"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests/public"]
+pythonpath = ["src"]

@@ -1,0 +1,23 @@
+schema_version: 1
+kim: M2-LAB
+learning_outcome_refs: [LO-02]
+title: ETL и PostgreSQL
+max_score: 6
+autograded_score: 3
+criteria:
+  - id: m2_schema
+    title: Схема данных и ограничения
+    score: 1
+    evidence: assignments/M2-databases-starter/sql/schema.sql
+  - id: m2_etl
+    title: Корректная и идемпотентная загрузка
+    score: 2
+    evidence: assignments/M2-databases-starter/tests/public/test_etl.py
+  - id: m2_queries
+    title: Запросы и обоснование индексов
+    score: 1
+    evidence: отчет и EXPLAIN
+  - id: m2_defense
+    title: Защита при новом формате входных данных
+    score: 2
+    evidence: устная защита

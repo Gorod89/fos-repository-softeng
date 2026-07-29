@@ -1,74 +1,57 @@
 .
-├── data/
-│   ├── competency-catalog.csv
-│   ├── krm-v3.0.xlsx
-│   ├── README.md
-│   └── role-competency-matrix.csv
+├── .devcontainer/
+│   └── devcontainer.json
+├── .github/
+│   ├── ISSUE_TEMPLATE/
+│   ├── workflows/
+│   │   ├── codeql.yml
+│   │   ├── course-quality.yml
+│   │   ├── docs.yml
+│   │   ├── external-links.yml
+│   │   ├── scorecard.yml
+│   │   └── security.yml
+│   ├── CODEOWNERS
+│   ├── dependabot.yml
+│   └── PULL_REQUEST_TEMPLATE.md
+├── assignments/
+│   ├── M1-architecture-starter/
+│   ├── M2-databases-starter/
+│   ├── M3-advanced-git-starter/
+│   ├── M4-python-tooling-starter/
+│   ├── M5-numpy-knn-starter/
+│   ├── M6-pandas-eda-starter/
+│   ├── M7-fastapi-starter/
+│   └── M8-docker-starter/
+├── course-spec/
+│   ├── rubrics/
+│   ├── assessment-model.yml
+│   ├── datasets.yml
+│   ├── learning-outcomes.yml
+│   └── metadata.yml
 ├── docs/
-│   ├── quality-checklist.md
-│   ├── README.md
-│   ├── repository_example.pdf
+│   ├── adr/
+│   ├── instructor-guide/
+│   ├── student-guide/
+│   ├── index.md
+│   ├── quality-model.md
 │   └── rpd.md
+├── scripts/
+│   └── validate_course.py
+├── tests/
+│   └── repository-quality/
+├── M1-architecture/ … M8-docker/
 ├── Exam/
-│   ├── attachments/
-│   │   └── .gitkeep
-│   └── README.md
-├── M1-module-name/
-│   ├── attachments/
-│   │   └── .gitkeep
-│   ├── kim-01-practical-work.md
-│   ├── README.md
-│   └── rubric-01.md
-├── M2-module-name/
-│   ├── attachments/
-│   │   └── .gitkeep
-│   ├── kim-01-practical-work.md
-│   ├── kim-01-template.md
-│   └── README.md
-├── methodical-guidelines/
-│   ├── students/
-│   │   └── README.md
-│   ├── teachers-assessment/
-│   │   └── README.md
-│   ├── teachers-resources/
-│   │   └── README.md
-│   └── README.md
-├── other/
-│   └── README.md
 ├── Project/
-│   ├── attachments/
-│   │   └── .gitkeep
-│   └── README.md
+├── methodical-guidelines/
 ├── resources/
-│   ├── benchmarks/
-│   │   └── README.md
-│   ├── datasets/
-│   │   └── README.md
-│   ├── llm-prompts/
-│   │   └── README.md
-│   ├── other/
-│   │   └── README.md
-│   ├── papers/
-│   │   └── README.md
-│   ├── problem-banks/
-│   │   └── README.md
-│   ├── software/
-│   │   └── python-libs/
-│   │       └── README.md
-│   ├── test-banks/
-│   │   └── README.md
-│   ├── textbooks/
-│   │   └── README.md
-│   └── README.md
-├── team/
-│   ├── images/
-│   │   └── .gitkeep
-│   └── README.md
-├── tools/
-│   ├── README.md
-│   └── validate_repository.py
-├── .gitignore
+├── AI_USAGE_POLICY.md
+├── CHANGELOG.md
+├── CODE_OF_CONDUCT.md
 ├── CONTRIBUTING.md
 ├── LICENSE.md
+├── Makefile
 ├── README.md
-└── validation-report.txt
+├── SECURITY.md
+├── mkdocs.yml
+├── pyproject.toml
+└── uv.lock

@@ -1,0 +1,49 @@
+schema_version: 1
+maximum_score: 100
+attestation: зачет
+pass_score: 60
+components:
+  - id: laboratories
+    title: Восемь лабораторных работ
+    max_score: 48
+    rule: 8 работ × 6 баллов
+    required: true
+    rubric_refs:
+      - rubrics/M1-lab.yml
+      - rubrics/M2-lab.yml
+      - rubrics/M3-lab.yml
+      - rubrics/M4-lab.yml
+      - rubrics/M5-lab.yml
+      - rubrics/M6-lab.yml
+      - rubrics/M7-lab.yml
+      - rubrics/M8-lab.yml
+  - id: oral_reports
+    title: Устные сообщения
+    max_score: 8
+    rule: Учитываются четыре лучших сообщения, каждое до 2 баллов
+    required: false
+    rubric_refs:
+      - rubrics/oral-report.yml
+  - id: git_game
+    title: Групповая Git-игра
+    max_score: 4
+    rule: Одна командная работа
+    required: true
+    rubric_refs:
+      - rubrics/M3-git-game.yml
+  - id: course_project
+    title: Курсовая работа
+    max_score: 40
+    rule: Результат внутренней 100-балльной рубрики умножается на 0,4
+    required: true
+    minimum_score: 16
+    rubric_refs:
+      - rubrics/course-project.yml
+decision:
+  passed: Зачтено
+  failed: Не зачтено
+  mandatory_conditions:
+    - Представлены все восемь лабораторных работ
+    - Выполнена групповая Git-игра
+    - За курсовую работу получено не менее 16 из 40 баллов
+    - Студент подтвердил авторство на защите с изменением условий

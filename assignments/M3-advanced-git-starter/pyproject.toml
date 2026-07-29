@@ -1,0 +1,9 @@
+[project]
+name = "m3-advanced-git-starter"
+version = "0.1.0"
+requires-python = ">=3.12,<3.13"
+dependencies = ["pytest==8.4.1"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests/public"]
+pythonpath = ["."]

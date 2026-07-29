@@ -1,0 +1,18 @@
+system: Сервис классификации обращений
+actors:
+  - Клиентское приложение
+  - Инженер сопровождения
+components:
+  - id: api
+    responsibility: Принимать и валидировать запросы
+    interfaces: [HTTP]
+  - id: model
+    responsibility: Выполнять детерминированный прогноз
+    interfaces: [Python API]
+quality_attributes:
+  latency_p95_ms: 300
+  availability_percent: 99.5
+  audit_log_retention_days: 30
+  recovery_time_minutes: 60
+decisions:
+  - docs/adr/0001-api-boundary.md

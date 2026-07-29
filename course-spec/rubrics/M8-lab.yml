@@ -1,0 +1,27 @@
+schema_version: 1
+kim: M8-LAB
+learning_outcome_refs: [LO-06]
+title: Docker и CI/CD
+max_score: 6
+autograded_score: 3
+criteria:
+  - id: m8_image
+    title: Воспроизводимая сборка образа
+    score: 1
+    evidence: assignments/M8-docker-starter/Dockerfile
+  - id: m8_compose
+    title: Запуск и healthcheck в Docker Compose
+    score: 1
+    evidence: assignments/M8-docker-starter/compose.yaml
+  - id: m8_ci
+    title: Минимально привилегированный CI
+    score: 1
+    evidence: workflow задания
+  - id: m8_operations
+    title: Диагностика и документация запуска
+    score: 1
+    evidence: отчет
+  - id: m8_defense
+    title: Отказ сервиса на защите
+    score: 2
+    evidence: устная защита

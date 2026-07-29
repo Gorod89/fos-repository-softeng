@@ -1,0 +1,7 @@
+schema_version: 1
+datasets:
+  - id: titanic-small
+    version: 1.0.0
+    path: resources/datasets/M2-M6-titanic-dataset.csv
+    license: Учебное использование; происхождение и ограничения описаны в resources/datasets/README.md
+    sha256: 4a437fde05fe5264e1701a7387ac6fb75393772ba38bb2c9c566405af5af4bd7
