@@ -4,7 +4,7 @@ version = "1.0.0"
 description = "Исполняемая образовательная платформа дисциплины по программной инженерии для систем ИИ"
 requires-python = ">=3.12,<3.13"
 dependencies = [
-  "mkdocs-material==9.6.17",
+  "mkdocs-material==9.7.7",
   "pyyaml==6.0.2",
   "pytest==8.4.1",
   "ruff==0.12.7",
